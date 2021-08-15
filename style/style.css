@@ -4,6 +4,9 @@ body {
   color: #5a5a5a;
 }
 
+
+
+
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -56,14 +59,8 @@ body {
   margin-top: 130px;
 }
 
-._off {
-  display: none;
-}
-
-.option0 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#limit{
+    width: 97%;
 }
 
 
