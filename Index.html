@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,12 +8,19 @@
     <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
 
     <title>Jonathan Soares</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/icons/baseline_perm_identity_white_24dp.png" />
+
     <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
     <link href="/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
     <link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
     <link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
@@ -48,10 +55,10 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="#Home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#sobre">Sobre Mim </a>
+                        <a class="nav-link " href="#Sobre">Sobre Mim </a>
                     </li>
                     <li class="nav-item">
 
@@ -62,16 +69,19 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="https://github.com/Jonathan-A-Soares">GitHub</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#Projetos">Projetos Principais</a>
+                            <div class="dropdown-divider "></div>
+                            <a class="dropdown-item " href="#Projetos">Projetos Principais</a>
                         </div>
                     </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#eventos">Eventos</a>
+                        <a class="nav-link " href="#Eventos">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#contato">Contato</a>
+                        <a class="nav-link " href="#Formação">Formação </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Contato">Contato</a>
                     </li>
 
                 </ul>
@@ -83,22 +93,35 @@
     </header>
 
     <section id="Home">
-        <div class="_home">
 
-        </div>
     </section>
 
     <section id="Sobre">
-        <br>
-        <div class="container marketing">
-            <img id="pro" src="image/profileultralow.png" alt="Minha Figura">
-            <h1 id="profile">Jonathan Americo Soares</h1>
-            <p id="textprofile">
-                Desenvolvedor Front end, brasileiro autodidata, <br>
-                toda minha aprendizagem vem de livros é cursos, <br>
-                tenho 16 anos. Disponivel para freelas.
+        <hr class="featurette-divider">
+        <h1 style="text-align: center; margin-top:-15px; margin-bottom: 30px; font-size: 60px;">Sobre Mim</h1>
+
+        <div style="text-align: center; max-width: 700px; margin: auto; font-size: 15px;">
+
+            <img src="https://avatars.githubusercontent.com/u/43283993?s=400&u=8ec887a83e918c418952a908e3f8b93f4cebe0cf&v=4"
+                name="aboutme" width="200" height="200" style="border-radius: 50%;" class="img-circle"></a>
+            <h1 class="media-heading">Jonathan A. Soares</h1>
+            <p > <strong> Bio: </strong> <br> Desenvolvedor Junior Brasileiro, Tenho 16 Anos. <br>Desenvolvedor Júnior Brasileiro, tenho 16 anos.
+            Comecei a estudar electrónica aos 8 anos e apaixonei-me pela engenharia electrónica, após 5 anos fui apresentado à
+            linguagem de programação python3, com os meus colegas Feira de ciência e tecnologia organizada pela ETE FMC «Fecete"
+            2018", no final de 2018 Comecei a estudar aplicações de desenvolvimento web em Html Css, no final de 2019 contribuí para
+            um projeto de grupo com colegas da rede social "PaperSound", que foi apresentado na feira de ciência e tecnologia
+            organizada pela ETE FMC "PROJETE 2019" , Em 2020 comecei a estudar desenvolvimento para Android, mas não me
+            aprofundei muito neste assunto em 2020. Meus objetivos são me aprofundar ao máximo no desenvolvimento Android em 2021.
+
             </p>
+            <br>
+
+
         </div>
+
+
+
+
     </section>
 
     <section id="Experiencias">
@@ -106,12 +129,77 @@
 
 
         <div class="container marketing">
-            <h1 style="text-align: center; margin-top:-15px; margin-bottom: 30px; font-size: 60px;">Experiencia Com</h1>
-            <!-- Three columns of text below the carousel -->
+            <h1 style="text-align: center; margin-top:-15px; margin-bottom: 30px; font-size: 60px;">Experiencias</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Conhecimentos</th>
+                        <th scope="col">Experiencia</th>
+                        <th scope="col">Convivencia</th>
+                        <th scope="col">Progamas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>C/C++</td>
+                        <td>10 Mes</td>
+                        <td>2 Anos</td>
+                        <td> Visual Studio Code / Arduino Ide</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Python 3</td>
+                        <td>5 Mes</td>
+                        <td>2 Anos</td>
+                        <td> Visual Studio Code</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Modelagem 3d</td>
+                        <td>1 Ano</td>
+                        <td>2 Anos </td>
+                        <td> Fusion 360 / SketchUp</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Html5 / Css3</td>
+                        <td>2 Anos</td>
+                        <td>6 Anos</td>
+                        <td> Visual Studio Code</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Arduino</td>
+                        <td> 9 Mes</td>
+                        <td> 1 Anos</td>
+                        <td>Arduino Ide</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Eletronica</td>
+                        <td> 3 Anos</td>
+                        <td> 6 Anos</td>
+                        <td>Proteus 8.9</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Designer</td>
+                        <td> 3 Mes</td>
+                        <td> 2 Anos</td>
+                        <td>Figma / Adobe Xd</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td>Desenvolvimento Android</td>
+                        <td> 1 Mes</td>
+                        <td> 5 Mes</td>
+                        <td>Android Studio</td>
+                    </tr>
+                </tbody>
+            </table>
 
-
-
-            
     </section>
 
     <section id="Projetos">
@@ -138,6 +226,10 @@
                                     class="btn btn-outline-primary">Gallery Autodesk</a>
                                 <a type="button" class="btn btn-outline-primary">Ver no GitHub</a>
                                 <a type="button" class="btn btn-outline-primary">Ver Fotos</a>
+
+
+
+
                             </div>
                         </div>
                     </div>
@@ -148,12 +240,15 @@
                             <a href="">
                                 <h5>Cabeça de Impressão para impressora 3d </h5>
                             </a>
-                            <p class="card-text">Modelado em 3d, Cabeça de Impressão para impressora 3d, com proposito de
-                                substituir o do projeto inical que e feito em madeira e nao conta resfriamneto de camadas,
+                            <p class="card-text">Modelado em 3d, Cabeça de Impressão para impressora 3d, com proposito
+                                de
+                                substituir o do projeto inical que e feito em madeira e nao conta resfriamneto de
+                                camadas,
                                 feito
                                 para hotend volcano v6 com resfriamento de camadas </p>
                             <div class="btn-group" role="group" aria-label="Basic outlined example">
-                                <a type="button" href="https://gallery.autodesk.com/projects/suporte-para-lcd-mini-16x02 "
+                                <a type="button"
+                                    href="https://gallery.autodesk.com/projects/suporte-para-lcd-mini-16x02 "
                                     class="btn btn-outline-primary ">Gallery Autodesk</a>
                                 <a type="button" class="btn btn-outline-primary">Ver Fotos</a>
                             </div>
@@ -168,7 +263,8 @@
                             <a href="">
                                 <h5>Vector Carro Eletrico. Fecete 2018</h5>
                             </a>
-                            <p class="card-text">Projeto desenvolvido para Feira de Ciências e Tecnologia organizada pela
+                            <p class="card-text">Projeto desenvolvido para Feira de Ciências e Tecnologia organizada
+                                pela
                                 ETE FMC, Desenvolvido por Jonathan Americo
                                 Soares, Julio Nunes Avelar, Mateus Vinicius Dutra.</p>
                             <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -185,7 +281,8 @@
                             <a href="">
                                 <h5>Paper Sound Rede Social. Projete 2019</h5>
                             </a>
-                            <p class="card-text">Projeto desenvolvido para Feira de Ciências e Tecnologia organizada pela
+                            <p class="card-text">Projeto desenvolvido para Feira de Ciências e Tecnologia organizada
+                                pela
                                 ETE FMC, Desenvolvido por Jonathan Americo
                                 Soares, Julio Nunes Avelar, Mateus Vinicius Dutra.</p>
                             <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -240,13 +337,74 @@
         <hr class="featurette-divider">
         <h1 style="text-align: center; margin-top:-15px; margin-bottom: 30px; font-size: 60px;">Eventos</h1>
 
+        <div class="card-group">
+            <div class="card">
+                <img src="./image/projetos/Projete.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><a
+                            href="https://www.etefmc.com.br/noticia-04-10-2019-projete-edicao-especial-comemorativa-aos-60-anos-da-ete-fmc">
+                            PROJETE</a> – Edição Especial ETE FMC – 60 Anos.</h5>
+                    <p class="card-text">Feira de Ciências e Tecnologia organizada pela ETE FMC. Apresentando Projeto
+                        Paper Sound.</p>
+                    <p class="card-text"><small class="text-muted">03 de outubro 2019</small></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./image/projetos/Fecete.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><a
+                            href="https://www.etefmc.com.br/noticia-09-10-2018-semana-da-eletronica-2018"> FECETE</a> -
+                        Feira de Ciências e Tecnologia.</h5>
+                    <p class="card-text">Feira de Ciências e Tecnologia organizada pela ETE FMC. Apresentado projeto
+                        Vector Carro Eletrico.</p>
+                    <p class="card-text"><small class="text-muted">02 a 07 de outubro 2018</small></p>
+                </div>
+            </div>
+        </div>
+
     </section>
 
-    <section id="Formaçao">
+    <section id="Formação">
 
         <hr class="featurette-divider">
         <h1 style="text-align: center; margin-top:-15px; margin-bottom: 30px; font-size: 60px;">Formação</h1>
+        <div class="card">
 
+            <div class="card-body">
+                <h5 class="card-title">Ensino Medio</h5>
+                <p class="card-text">Entrei em 2020, Cursando o Segundo Ano Ensino Medio na<br> Escola Estadual Dr.
+                    Lauro Corrêa do Amaral.</p>
+                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                    <a href="#" class="btn btn-outline-primary disabled">Ver Certificado</a>
+                    <a href="https://www.mg.gov.br/instituicao_unidade/escola-estadual-dr-lauro-correa-do-amaral-0"
+                        class="btn btn-outline-primary">Escola</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">JavaScript e jQuery </h5>
+                <p class="card-text">
+                <ul>
+                    <li>25 Aulas</li>
+                    <li>1 Hora de conteudo em video</li>
+                </ul> Realizado na <a href="https://www.udemy.com"> Udemy</a>.</p>
+                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                    <a href="https://drive.google.com/file/d/1HRp06pRt1sskkmI5-Vb-4NVVaxwDTwn1/view?usp=sharing"
+                        class="btn btn-outline-primary">Ver Certificado</a>
+                    <a href="https://www.udemy.com/course/introducao-ao-jquery/learn/lecture/11903440#overview"
+                        class="btn btn-outline-primary">Curso</a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div> -->
     </section>
 
     <section id="Contato">
@@ -271,11 +429,11 @@
     <!-- FOOTER -->
     <footer class="container" id="footer">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>Copyright&copy; 2020-2020 Jonathan-A-Soares. </p>
+        <p>Site desenvolvido por <a href="https://github.com/Jonathan-A-Soares">Jonathan-A-Soares.</a></p>
     </footer>
-   
 
-    
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
